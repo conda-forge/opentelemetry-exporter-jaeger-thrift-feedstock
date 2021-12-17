@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-exporter-jaeger-thrift" %}
-{% set version = "1.7.1" %}
+{% set version = "1.8.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/opentelemetry-exporter-jaeger-thrift-{{ version }}.tar.gz
-  sha256: 884e3f67fdd922a30337614d2093ce21031b71bac23f73de1ce178349b542aa5
+  sha256: e23792b28cedcaa35c5216ca7f09191ceefcd3a2d8665070c29ca249600af3cc
 
 build:
   number: 0
